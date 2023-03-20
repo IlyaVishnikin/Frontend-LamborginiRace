@@ -1,0 +1,27 @@
+@import 'vars.css';
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  padding-top: 25px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list {
+  display: flex;
+  gap: 0 40px;
+  padding-top: 25px;
+}
+
+.menu-link {
+  color: var(--color-dark-gray);
+  font-size: 16px;
+}
