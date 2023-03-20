@@ -5,7 +5,28 @@
   src: url(../fonts/impact.ttf);
 }
 
+/* GENERAL */
+.main_container {
+  max-width: 900px;
+  margin: 0 auto;
+}
 
+.part-header {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.part-text {
+  font-style: normal;
+  font-size: 14px;
+}
+
+/* END GENERAL */
+
+/* PROMO SECTION BEGIN */
 .promo {
   background-image: url(../img/header/background.png);
   background-repeat: no-repeat;
@@ -64,3 +85,121 @@
   margin-top: auto;
   margin-bottom: 30px;
 }
+/* PROMO SECTION END */
+
+/* INFO FIRST PART BEGIN */
+.info {
+  margin-top: 100px;
+}
+
+.first-part__header {
+  margin-bottom: 34px;
+}
+
+.first-part__splitter {
+  display: flex;
+  gap: 20px;
+
+  margin-bottom: 34px;
+  
+}
+
+.first-part__left-text, .first-part__right-text {
+  width: 50%;
+  font-size: 14px;
+}
+
+.first-part__right-text {
+  font-weight: 600;
+}
+/* INFO FIRST PART END */
+
+/* INFO SECOND PART BEGIN */
+.second-part {
+  display: flex;
+  gap: 106px;
+
+  margin-top: 100px;
+}
+
+.second-part__left-side,
+.second-part__right-side {
+  width: 50%;
+}
+
+.second-part__left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* INFO SECOND PART END  */
+
+/* INFO THIRD PART BEGIN */
+.third-part {
+  display: flex;
+  gap: 20px;
+
+  margin-top: 100px;
+}
+
+.third-part__left-side,
+.third-part__right-side {
+  width: 50%;
+}
+
+.third-part__left-side {
+  padding-right: 60px;
+}
+
+.third-part__text {
+  margin-top: 30px; 
+}
+
+.third-part__table {
+  min-height: 300px;
+  width: 100%;
+
+  border-top: 1px var(--color-black) solid;
+  border-bottom: 1px var(--color-black) solid;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  
+}
+
+/* INFO THIRD PART END  */
+
+
+.track { 
+  background-image: url(../img/main/section-track/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.track__inner {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 100px;
+  min-height: 100vh;
+}
+
+.track__top {
+  max-width: 450px;
+
+  padding-top: 100px;
+  max-width: 450px;
+}
+
+.track__header {
+  
+  margin-bottom: 30px;
+}
+
+.track__bottom {
+  margin-top: auto;
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
