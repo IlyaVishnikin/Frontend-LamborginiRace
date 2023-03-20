@@ -7,7 +7,13 @@
 }
 
 .header {
+  position: absolute;
+  left: 0;
+  right: 0;
+
   padding-top: 25px;
+
+  background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
 }
 
 .navigation {
@@ -19,6 +25,14 @@
   display: flex;
   gap: 0 40px;
   padding-top: 25px;
+}
+
+.menu-left {
+  padding-left: 25px;
+}
+
+.menu-right {
+  padding-right: 80px;
 }
 
 .menu-link {
