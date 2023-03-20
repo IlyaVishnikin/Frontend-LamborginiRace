@@ -1,11 +1,5 @@
 @import 'vars.css';
 
-.container {
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
 .header {
   position: absolute;
   left: 0;
@@ -14,6 +8,12 @@
   padding-top: 25px;
 
   background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.header__container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .navigation {
