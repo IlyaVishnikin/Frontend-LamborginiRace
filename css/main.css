@@ -321,3 +321,45 @@
   color: white;
 }
 /* EVO SECTION END */
+
+/* BLOG SECTION BEGIN */
+.blog {
+  padding-top: 100px; 
+}
+
+.blog__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+
+.blog__header {
+  margin-bottom: 30px;
+}
+
+.blog__articles {
+  display: flex;
+  gap: 20px;
+}
+
+.blog-article__image {
+  margin-bottom: 20px;
+}
+
+.blog-article__header {
+  margin-bottom: 10px;
+  min-height: 50px;
+
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.blog-article__text {
+  margin-bottom: 10px;
+  height: 87px;
+}
+/* BLOG SECTION END */
