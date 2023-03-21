@@ -363,3 +363,49 @@
   height: 87px;
 }
 /* BLOG SECTION END */
+
+/* QUOTES SECTION BEGIN */
+.quotes {
+  margin-top: 100px;
+}
+
+.quotes__inner {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.quotes__left-side,
+.quotes__right-side {
+  width: 50%;
+}
+
+.quotes__left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.quotes__article-quote::before {
+  content: '«';
+}
+
+.quotes__article-quote::after {
+  content: '».';
+}
+
+.quotes__article-title {
+  color: var(--color-gold);
+  margin-bottom: 3px;
+}
+
+.quotes__article-author {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.quotes__article-quote {
+  max-height: 70px;
+}
+
+/* QUOTES SECTION END */
