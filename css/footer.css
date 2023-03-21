@@ -1,0 +1,86 @@
+@import 'vars.css';
+
+/* GENERAL */
+.footer__text {
+  font-size: 16px;
+}
+
+.footer__subheader {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* GENERAL END */
+
+.footer {
+  height: 100vh;
+
+  background-color: var(--color-black);
+  color: white;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 80px;
+}
+
+.footer__inner {
+  padding-top: 100px;
+}
+
+.footer__header {
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+
+.footer__left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.general-information {
+  margin-bottom: 50px;
+}
+
+.general-information__header {
+  margin-bottom: 20px;
+}
+
+.general-information__phone {
+  margin-bottom: 10px;
+}
+
+.tickets-information {
+  margin-bottom: 50px;
+}
+
+.tickets-information__header {
+  margin-bottom: 20px;
+}
+
+.tickets-information__phone {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__right-side {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.location-information__header,
+.location-information__location {
+  margin-bottom: 20px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
